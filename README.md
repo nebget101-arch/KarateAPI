@@ -12,7 +12,8 @@ src/test/
 └── resources/
     ├── com/karate/api/tests/
     │   ├── sample.feature        # Sample API tests
-    │   └── users.feature         # User API tests
+    │   ├── users.feature         # User API tests
+    │   └── authentication.feature # Authentication method tests
     └── karate-config.js          # Configuration file
 ```
 
@@ -86,8 +87,12 @@ Feature: Feature Name
 ### sample.feature
 Tests basic CRUD operations on a JSON API
 
+
 ### users.feature
 Tests user endpoint with response validation
+
+### authentication.feature
+Tests different API authentication methods: Basic Auth, Bearer Token, API Key (header/query), and OAuth2.
 
 ## Further Reading
 
