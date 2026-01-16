@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "User Schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "User ID"
+    },
+    "name": {
+      "type": "string",
+      "description": "Full name",
+      "minLength": 1
+    },
+    "username": {
+      "type": "string",
+      "description": "Username",
+      "minLength": 1
+    },
+    "email": {
+      "type": "string",
+      "description": "Email address",
+      "format": "email"
+    },
+    "address": {
+      "type": "object",
+      "description": "User address"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Phone number"
+    },
+    "website": {
+      "type": "string",
+      "description": "Website URL"
+    },
+    "company": {
+      "type": "object",
+      "description": "Company information"
+    }
+  },
+  "required": ["id", "name", "username", "email"],
+  "additionalProperties": true
+}

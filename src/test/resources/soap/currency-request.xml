@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:web="http://www.webserviceX.NET/">
+  <soap:Body>
+    <web:GetCurrencyByCountry>
+      <web:CountryName>United States</web:CountryName>
+    </web:GetCurrencyByCountry>
+  </soap:Body>
+</soap:Envelope>

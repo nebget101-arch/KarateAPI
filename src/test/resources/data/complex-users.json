@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "age": 28,
+      "active": true,
+      "roles": ["admin", "user"],
+      "metadata": {
+        "lastLogin": "2026-01-15T10:30:00Z",
+        "loginCount": 45,
+        "preferences": {
+          "theme": "dark",
+          "notifications": true,
+          "language": "en"
+        }
+      },
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "country": "USA",
+        "zipcode": "10001"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "age": 35,
+      "active": true,
+      "roles": ["user"],
+      "metadata": {
+        "lastLogin": "2026-01-14T15:20:00Z",
+        "loginCount": 120,
+        "preferences": {
+          "theme": "light",
+          "notifications": false,
+          "language": "fr"
+        }
+      },
+      "address": {
+        "street": "456 Oak Ave",
+        "city": "Paris",
+        "country": "France",
+        "zipcode": "75001"
+      }
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "pageSize": 10,
+    "totalCount": 2,
+    "totalPages": 1
+  }
+}
